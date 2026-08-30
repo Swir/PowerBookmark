@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { width: 360px; padding: 15px; font-family: 'Segoe UI', Tahoma, sans-serif; background: #121212; color: #e0e0e0; margin: 0; border: 1px solid #333; }
+    h3 { text-align: center; color: #00ADB5; margin-top: 0; font-size: 19px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+    .branding { text-align: center; color: #888; font-size: 11px; margin-bottom: 15px; font-style: italic; letter-spacing: 2px; }
+    .btn { width: 100%; padding: 10px; margin-bottom: 10px; background: #222831; color: #00ADB5; border: 1px solid #00ADB5; cursor: pointer; border-radius: 6px; font-weight: bold; transition: 0.3s; }
+    .btn:hover { background: #00ADB5; color: #121212; }
+    .btn-action { background: #00ADB5; color: #121212; }
+    .btn-action:hover { background: #007F86; color: #fff; }
+    .btn-scanner { background: #1a1a1a; color: #ffcc00; border: 1px solid #ffcc00; }
+    .btn-scanner:hover { background: #ffcc00; color: #121212; }
+    
+    .script-list { max-height: 240px; overflow-y: auto; margin-bottom: 15px; border-top: 1px solid #333; border-bottom: 1px solid #333; padding: 10px 0; }
+    .script-item { display: flex; align-items: center; padding: 8px; background: #1e1e1e; margin-bottom: 5px; border-radius: 4px; border-left: 3px solid #00ADB5; }
+    .script-info { flex-grow: 1; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
+    .script-name { font-size: 13px; font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #fff; }
+    .script-domain { font-size: 10px; color: #ffcc00; margin-top: 2px; font-family: monospace; }
+    
+    .actions { display: flex; gap: 4px; margin-right: 8px; }
+    .icon-btn { background: none; border: none; color: #888; cursor: pointer; font-size: 14px; padding: 2px 4px; transition: 0.2s; border-radius: 3px; }
+    .icon-btn:hover { background: #333; color: #00ADB5; }
+    .icon-btn.delete:hover { background: #3a1111; color: #ff4444; }
+    .toggle-switch { position: relative; width: 34px; height: 18px; -webkit-appearance: none; background: #444; outline: none; border-radius: 20px; cursor: pointer; transition: 0.4s; flex-shrink: 0; margin: 0; }
+    .toggle-switch:checked { background: #00ADB5; }
+    .toggle-switch::before { content: ''; position: absolute; width: 14px; height: 14px; border-radius: 50%; top: 2px; left: 2px; background: #fff; transition: 0.4s; }
+    .toggle-switch:checked::before { left: 18px; }
+    
+    .hidden { display: none !important; }
+    .input-field { width: 100%; box-sizing: border-box; padding: 8px; margin-bottom: 8px; background: #222; color: #fff; border: 1px solid #444; border-radius: 4px; font-family: monospace; }
+    .label-text { font-size: 11px; color: #aaa; margin-bottom: 3px; display: block; }
+  </style>
+</head>
+<body>
+  <h3>PowerBookmark</h3>
+  <div class="branding">by Swir</div>
+  
+  <div id="mainView">
+    <button id="btnScanner" class="btn btn-action">🎯 Snajper Elementów</button>
+    <button id="btnCodeScanner" class="btn btn-scanner">🔍 Scanner Kod: Analiza</button>
+    
+    <div class="script-list" id="scriptsContainer"></div>
+    <button id="btnAddNew" class="btn">➕ Dodaj Nowy Skrypt</button>
+    <button id="btnExport" class="btn" style="border-color: #555; color: #aaa;">💾 Kopia Zapasowa JSON</button>
+  </div>
+
+  <div id="addView" class="hidden">
+    <h4 id="editorTitle" style="margin-top:0; color:#00ADB5;">Nowy Skrypt</h4>
+    <span class="label-text">Nazwa modyfikacji:</span>
+    <input type="text" id="newScriptName" class="input-field" placeholder="Np. Odblokuj wklejanie">
+    
+    <span class="label-text">Domena (gdzie ma działać - * dla wszystkich):</span>
+    <input type="text" id="newScriptDomain" class="input-field" placeholder="Np. facebook.com">
+    
+    <span class="label-text">Kod JavaScript:</span>
+    <textarea id="newScriptCode" class="input-field" style="height: 120px;" placeholder="Wklej swój kod..."></textarea>
+    
+    <button id="btnSaveNew" class="btn btn-action">Zapisz Skrypt</button>
+    <button id="btnCancelNew" class="btn" style="background: #444; border-color: #444; color: #fff;">Wróć / Anuluj</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
