@@ -19,6 +19,8 @@
 
 PowerBookmark is a Manifest V3 browser extension created as a compact toolbox for working with web-page UI, scripts and bookmarklet-style workflows. It uses a popup interface together with a content script and browser storage.
 
+It is aimed at users searching for a **Chrome bookmark manager**, **bookmarklet manager**, **Manifest V3 extension**, **browser productivity tool**, or a lightweight utility for working with scripts on active web pages.
+
 ### ✨ Features
 - browser extension based on Manifest V3
 - popup-based control panel
@@ -40,6 +42,8 @@ PowerBookmark is a Manifest V3 browser extension created as a compact toolbox fo
 
 PowerBookmark to rozszerzenie przeglądarki w standardzie Manifest V3 stworzone jako kompaktowy kombajn do pracy z interfejsem stron WWW, skryptami i rozwiązaniami typu bookmarklet. Rozszerzenie posiada własny panel popup, content script oraz lokalne ustawienia.
 
+Projekt może zainteresować osoby szukające **menedżera bookmarków Chrome**, **narzędzia do bookmarkletów**, rozszerzenia **Manifest V3** lub lekkiego zestawu narzędzi do pracy ze skryptami na aktywnej stronie.
+
 ### ✨ Funkcje
 - Manifest V3
 - własny panel sterowania popup
@@ -56,6 +60,10 @@ PowerBookmark to rozszerzenie przeglądarki w standardzie Manifest V3 stworzone 
 5. Wskaż katalog `PowerBookmark`.
 
 ---
+
+## 🔎 Discoverability / Keywords
+
+`chrome extension` · `bookmark manager` · `bookmarklet` · `manifest v3` · `javascript` · `browser tools` · `productivity extension` · `content script` · `activeTab` · `scripting`
 
 ## 📁 Structure / Struktura
 
