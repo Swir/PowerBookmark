@@ -2,70 +2,65 @@
 
 # 🔖 PowerBookmark
 
-**Browser power-tool for bookmarks, page UI utilities and bookmarklet workflows**  
-**Rozbudowane narzędzie przeglądarkowe do bookmarków, UI stron i bookmarkletów**
+### Advanced Chrome Bookmarklet & Page-Tool Manager
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+**Manifest V3 • JavaScript • Custom Scripts • Element Tools • Backup & Restore**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
 ![Chrome](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-success)
-![Version](https://img.shields.io/badge/version-2.0-ff4fa3)
+![UI](https://img.shields.io/badge/UI-Dark%20Cyber-111111)
 ![Author](https://img.shields.io/badge/Author-Swir-8A2BE2)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## 🚀 About
 
-PowerBookmark is a Manifest V3 browser extension created as a compact toolbox for working with web-page UI, scripts and bookmarklet-style workflows. It uses a popup interface together with a content script and browser storage.
+**PowerBookmark** is a Chrome/Chromium extension for managing reusable JavaScript snippets, bookmarklet-style workflows and page interaction tools from one compact popup.
 
-It is aimed at users searching for a **Chrome bookmark manager**, **bookmarklet manager**, **Manifest V3 extension**, **browser productivity tool**, or a lightweight utility for working with scripts on active web pages.
+Instead of keeping useful snippets in random text files or browser bookmarks, PowerBookmark lets you organize them by name and domain, enable or disable them, edit them and keep a JSON backup.
 
-### ✨ Features
-- browser extension based on Manifest V3
-- popup-based control panel
-- page interaction through a content script
-- local extension settings through browser storage
-- scripting support for the active tab
-- designed as a practical bookmarklet and page-tool toolbox
-
-### 📦 Installation
-1. Download or clone the repository.
-2. Open Chrome/Chromium extension management.
-3. Enable **Developer mode**.
-4. Choose **Load unpacked**.
-5. Select the `PowerBookmark` directory.
+It is aimed at users searching for a **bookmarklet manager**, **JavaScript snippet manager**, **Chrome productivity extension**, **Manifest V3 developer tool**, **custom page script manager** or a lightweight browser toolbox.
 
 ---
 
-## 🇵🇱 Polski
+## ✨ Features
 
-PowerBookmark to rozszerzenie przeglądarki w standardzie Manifest V3 stworzone jako kompaktowy kombajn do pracy z interfejsem stron WWW, skryptami i rozwiązaniami typu bookmarklet. Rozszerzenie posiada własny panel popup, content script oraz lokalne ustawienia.
-
-Projekt może zainteresować osoby szukające **menedżera bookmarków Chrome**, **narzędzia do bookmarkletów**, rozszerzenia **Manifest V3** lub lekkiego zestawu narzędzi do pracy ze skryptami na aktywnej stronie.
-
-### ✨ Funkcje
-- Manifest V3
-- własny panel sterowania popup
-- interakcja ze stroną przez content script
-- zapisywanie ustawień w pamięci rozszerzenia
-- wykonywanie skryptów na aktywnej karcie
-- zestaw narzędzi ułatwiających tworzenie i używanie bookmarkletów
-
-### 📦 Instalacja
-1. Pobierz lub sklonuj repozytorium.
-2. Otwórz panel rozszerzeń Chrome/Chromium.
-3. Włącz **Tryb dewelopera**.
-4. Kliknij **Załaduj rozpakowane**.
-5. Wskaż katalog `PowerBookmark`.
+| Feature | Description |
+|---|---|
+| 🧩 Script manager | Store reusable JavaScript snippets |
+| 🌐 Domain targeting | Assign scripts to specific domains or all sites |
+| 🎚️ Enable / disable | Toggle individual scripts without deleting them |
+| ✏️ Edit tools | Rename and modify saved scripts |
+| 🎯 Element tools | Includes page-element inspection / targeting workflow |
+| 🔍 Code analysis tools | Utilities for working with page code and UI |
+| 💾 JSON backup | Export your saved configuration |
+| 🗃️ Local storage | Settings are stored by the browser extension |
+| 🛡️ Manifest V3 | Built for the current Chrome extension model |
+| 🌙 Dark UI | Compact cyber-style popup interface |
 
 ---
 
-## 🔎 Discoverability / Keywords
+## 📦 Installation
 
-`chrome extension` · `bookmark manager` · `bookmarklet` · `manifest v3` · `javascript` · `browser tools` · `productivity extension` · `content script` · `activeTab` · `scripting`
+1. Clone or download this repository.
+2. Open Chrome or Chromium.
+3. Go to **Extensions**.
+4. Enable **Developer mode**.
+5. Click **Load unpacked**.
+6. Select the `PowerBookmark` folder.
 
-## 📁 Structure / Struktura
+Repository clone:
+
+```bash
+git clone https://github.com/Swir/PowerBookmark.git
+```
+
+---
+
+## 🧩 Project Structure
 
 ```text
 PowerBookmark/
@@ -77,12 +72,42 @@ PowerBookmark/
 └── README.md
 ```
 
-## 🔐 Permissions / Uprawnienia
+---
 
-The extension requests `storage`, `activeTab`, `scripting` and access to web pages because its tools operate directly on page content. Install extensions only from sources you trust.
+## 🔐 Browser Permissions
 
-Rozszerzenie korzysta z `storage`, `activeTab`, `scripting` oraz dostępu do stron WWW, ponieważ jego narzędzia działają bezpośrednio na zawartości stron.
+PowerBookmark uses extension permissions such as `storage`, `activeTab` and `scripting` because its tools need to save configuration and interact with the current page.
 
-## 👤 Author / Autor
+Only run custom JavaScript you understand and trust. Scripts execute in the context of pages you visit and can affect page content and behavior.
 
-Developed by **Swir**.
+---
+
+## 🌍 Language
+
+The current popup interface is Polish. An English application variant is planned as a separate build so the original Polish version remains available without changing its behavior.
+
+---
+
+## 🔍 Discoverability
+
+`bookmarklet manager` • `javascript snippet manager` • `chrome script manager` • `manifest v3 extension` • `browser productivity extension` • `custom javascript extension` • `page script manager` • `chrome developer tool` • `bookmark manager chrome` • `content script tools`
+
+---
+
+## 🤝 Contributing
+
+Bug reports and improvements are welcome. When proposing a feature, include the browser version and a short description of the expected behavior.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Swir** — [@Swir](https://github.com/Swir)
+
+<div align="center">
+
+### 🔖 Turn useful JavaScript snippets into reusable browser tools
+
+⭐ **Star the repository if PowerBookmark helps your workflow!**
+
+</div>
