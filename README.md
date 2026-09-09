@@ -16,6 +16,16 @@
 
 ---
 
+## Po polsku — menedżer skryptów JavaScript do Chrome
+
+**PowerBookmark** to rozszerzenie Chrome/Chromium do porządkowania własnych skryptów JavaScript i narzędzi działających na stronach. Pozwala przypisywać skrypty do domen, włączać je i wyłączać oraz eksportować konfigurację do JSON. Interfejs rozszerzenia jest po polsku.
+
+**Uruchomienie:** pobierz repozytorium, otwórz `chrome://extensions`, włącz tryb programisty i wybierz **Załaduj rozpakowane**. Wskaż folder zawierający `manifest.json`.
+
+Szukasz narzędzia do konkretnego czatu? Zobacz [XBookmark dla CZATerii](https://github.com/Swir/XBookmark#readme). [Więcej programów SWIR →](https://github.com/Swir#readme)
+
+---
+
 ## 🚀 About
 
 **PowerBookmark** is a Chrome/Chromium extension for managing reusable JavaScript snippets, bookmarklet-style workflows and page interaction tools from one compact popup.
