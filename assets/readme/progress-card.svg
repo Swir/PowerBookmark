@@ -7,7 +7,7 @@
   <text x="50" y="79" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800">POWERBOOKMARK</text>
   <text x="50" y="107" fill="#8DA8B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">PRODUCT READINESS • NO CANONICAL ROADMAP</text>
   <text x="1110" y="79" text-anchor="end" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="35" font-weight="800">N/A</text>
-  <text x="1110" y="106" text-anchor="end" fill="#62E5FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" letter-spacing="1.5">STABLE RELEASE EXISTS</text>
+  <text x="1110" y="106" text-anchor="end" fill="#62E5FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="650" letter-spacing="1.5">IN PROGRESS</text>
   <rect x="50" y="126" width="1100" height="22" rx="11" fill="#08131F" stroke="#62E5FF" stroke-opacity="0.18"/><path d="M50 137H1150" stroke="url(#cyan)" stroke-opacity="0.14" stroke-width="2"/>
-  <text x="50" y="174" fill="#8DA8B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Roadmap items: N/A</text><text x="1150" y="174" text-anchor="end" fill="#8DA8B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Release v2.0.0 is separate from completion percentage</text>
+  <text x="50" y="174" fill="#8DA8B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Roadmap items: N/A</text><text x="1150" y="174" text-anchor="end" fill="#8DA8B8" font-family="Segoe UI, Arial, sans-serif" font-size="13">Release v2.0.0 exists; release ≠ completion percentage</text>
 </svg>
