@@ -20,6 +20,12 @@
 
 </div>
 
+## 📸 Screenshot
+
+![PowerBookmark application screenshot](docs/screenshots/application.png)
+
+Static preview of the repository's actual popup HTML/CSS. Browser-extension APIs are not connected in this preview, so the saved-script list is not populated.
+
 <img width="100%" src="https://raw.githubusercontent.com/Swir/Swir/main/assets/power-divider-v4.svg" alt="SWIR electric divider" />
 
 ## 📍 Project Status
