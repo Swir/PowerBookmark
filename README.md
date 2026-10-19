@@ -22,7 +22,7 @@
 
 ## 📸 Screenshot
 
-![PowerBookmark application screenshot](docs/screenshots/application.png)
+![PowerBookmark application screenshot](docs/screenshots/application.jpg)
 
 Static preview of the repository's actual popup HTML/CSS. Browser-extension APIs are not connected in this preview, so the saved-script list is not populated.
 
